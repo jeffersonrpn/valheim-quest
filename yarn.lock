@@ -407,6 +407,16 @@
   resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-5.2.6.tgz#56e9bb02a6f0ccd0e3b5ecfab7e996295283ed78"
   integrity sha512-t/am+C/kdrvpWuOL1enoKCrlHiRHH0hejaPm9dA88Vp2gsDKF4o6OzKzuAMQo8kLd4Jlmg08Cb6Z76LaYB/Bsw==
 
+"@fontsource/macondo@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/macondo/-/macondo-5.2.6.tgz#c9d52b05ef70f30204e1ce615f09e85cd7cabee5"
+  integrity sha512-1XH55wWewOhBNu7On3TywfjaIXvzbGjBbXAg+CWxHzdL9N0oboepO6RoCNXPAL7DPrjRgZyeaBjLsURJkU8Ang==
+
+"@fontsource/roboto-slab@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-slab/-/roboto-slab-5.2.6.tgz#373dcaf0236182a2d004bd22cdff1c5361eb11bb"
+  integrity sha512-srUROPqdczZx5OBlCKojA3C9eNeV3iIAT+nb0YLGb21ZNv58PUf5mom5T5+x6BMaaH1ZuXDi0sT1NaKWuoagYg==
+
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.13.0.tgz#fb907624df3256d04b9aa2df50d7aa97ec648748"
