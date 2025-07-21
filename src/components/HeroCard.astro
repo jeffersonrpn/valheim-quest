@@ -1,0 +1,14 @@
+---
+// Props esperadas: title, classe, nivel, raca, imagem, slug, excerpt
+const { name, class: classe, level, slug, excerpt } = Astro.props;
+---
+
+<article
+  class="bg-neutral-100 rounded-2xl shadow-md p-4 hover:shadow-lg transition"
+>
+  <a href={`/personagens/${slug}/`}>
+    <h2 class="text-xl font-bold mb-1">{name}</h2>
+    <p class="text-sm text-neutral-600">{classe} • Nível {level}</p>
+    <p class="mt-2 text-sm text-neutral-700 line-clamp-3">{excerpt}</p>
+  </a>
+</article>

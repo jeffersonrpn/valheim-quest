@@ -1,0 +1,33 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import HeroCard from "@components/HeroCard.astro";
+
+const heroes = await getCollection("heroes");
+---
+
+<PageLayout
+  title="Personagens"
+  description="Lista de personagens do Valheim Quest"
+>
+  <Container>
+    <section class="max-w-6xl mx-auto px-4 py-12">
+      <h1 class="text-3xl font-bold mb-6">Vigilantes Silenciosos</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {
+          heroes.map(({ id, slug, data }) => (
+            <HeroCard
+              key={id}
+              name={data.name}
+              class={data.class}
+              level={data.level}
+              slug={slug}
+              excerpt={data.excerpt ?? ""}
+            />
+          ))
+        }
+      </div>
+    </section>
+  </Container>
+</PageLayout>
