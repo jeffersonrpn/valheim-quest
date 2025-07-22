@@ -23,9 +23,7 @@ const heroes = await getCollection("heroes");
               key={id}
               name={data.name}
               class={data.class}
-              level={data.level}
               slug={slug}
-              excerpt={data.excerpt ?? ""}
             />
           ))
         }
