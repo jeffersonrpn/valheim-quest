@@ -1,8 +1,11 @@
 ---
 name: "Jeffnaudo"
 class: "Mago de sangue"
-level: 5
 slug: "jeffnaudo"
+atk: 50
+def: 50
+building: 90
+exploration: 75
 ---
 
 Jeffnaudo já foi um guerreiro, versado no machado e no escudo, conhecido por erguer fortalezas

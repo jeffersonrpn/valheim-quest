@@ -2,7 +2,7 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import FormattedDate from "@components/FormattedDate.astro";
+import HeroStats from "@components/HeroStats.astro";
 
 export async function getStaticPaths() {
   const heroes = await getCollection("heroes");
@@ -14,18 +14,10 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"heroes">;
 
 const hero = Astro.props;
-const { Content } = await hero.render();
 ---
 
 <PageLayout title={hero.data.name} description={hero.data.class}>
   <Container>
-    <div class="space-y-1 my-10">
-      <div class="animate text-2xl font-semibold text-black dark:text-white">
-        {hero.data.name}
-      </div>
-    </div>
-    <article class="animate">
-      <Content />
-    </article>
+    <HeroStats {...hero.data} slug={hero.slug} />
   </Container>
 </PageLayout>

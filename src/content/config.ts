@@ -14,7 +14,10 @@ const heroes = defineCollection({
   schema: z.object({
     name: z.string(),
     class: z.string(),
-    level: z.number(),
+    atk: z.number(),
+    def: z.number(),
+    building: z.number(),
+    exploration: z.number(),
     excerpt: z.string().optional(),
   }),
 });

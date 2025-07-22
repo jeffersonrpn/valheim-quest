@@ -1,8 +1,11 @@
 ---
 name: "Catuaba"
 class: "Bárbaro"
-level: 5
 slug: "catuaba"
+atk: 75
+def: 75
+building: 35
+exploration: 35
 ---
 
 Catuaba é a tempestade encarnada em carne e aço. Forjado no calor da batalha e temperado pelas cicatrizes da guerra, ele empunha armas tão colossais quanto sua determinação. Veste armaduras pesadas que transformam seu corpo numa verdadeira muralha ambulante, capaz de suportar impactos que esmagariam homens comuns. Onde ele pisa, o chão estremece; onde ele luta, poucos sobrevivem para contar a história.

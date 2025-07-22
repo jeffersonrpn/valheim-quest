@@ -1,7 +1,7 @@
 ---
 import Link from "@components/Link.astro";
 
-const { name, class: classe, level, slug, excerpt } = Astro.props;
+const { name, class: classe, slug } = Astro.props;
 ---
 
 <Link href={`/personagens/${slug}`} underline={false}>

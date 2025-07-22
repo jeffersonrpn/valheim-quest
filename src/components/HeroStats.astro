@@ -1,0 +1,25 @@
+---
+const {
+  name,
+  class: classe,
+  slug,
+  atk,
+  def,
+  building,
+  exploration,
+  excerpt,
+} = Astro.props;
+---
+
+<div
+  class="rounded-lg shadow-md p-5 hover:shadow-lg transition bg-hero-card bg-cover aspect-[2/3] w-full flex flex-col text-gray-700"
+>
+  <h2 class="text-4xl font-bold pt-2">{name}</h2>
+  <h2 class="text-4xl font-bold pt-2">{classe}</h2>
+  <div class="flex">
+    <div>ATQ {atk}</div>
+    <div>DEF {def}</div>
+    <div>CNT {building}</div>
+    <div>EXP {exploration}</div>
+  </div>
+</div>

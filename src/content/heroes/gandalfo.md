@@ -1,8 +1,11 @@
 ---
 name: "Gandalfo"
 class: "Caçador"
-level: 5
 slug: "gandalfo"
+atk: 75
+def: 50
+building: 35
+exploration: 75
 ---
 
 Nascido nas florestas enevoadas, Gandalfo é um mestre do arco e da espreita que aprendeu a sobreviver entre as sombras. Seus passos são leves como folhas secas ao vento, e sua mira é certeira como o destino traçado pelos deuses antigos.
