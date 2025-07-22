@@ -7,8 +7,7 @@ slug: "jeffnaudo"
 
 Jeffnaudo já foi um guerreiro, versado no machado e no escudo, conhecido por erguer fortalezas
 de madeira e ferro em meio à bruma das manhãs calmas.
-Mas a chegada da Rainha — uma entidade tecida de névoa e veneno, governanta dos Seekers da cidadela infestada —
-devastou sua perspectiva de criar um lar em Valheim.
+Mas a chegada da Rainha — uma entidade tecida de névoa e veneno, governanta dos Seekers da cidadela infestada — devastou sua perspectiva de criar um lar em Valheim.
 Sem forças para enfrentá-la com armas forjadas em Midgard, Jeffnaudo partiu em busca dos Anões,
 mestres de uma forja viva e dominadores do Eithr, e se viu obrigado a estudar o artesanato
 das magias antigas.

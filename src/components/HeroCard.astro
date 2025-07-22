@@ -1,14 +1,14 @@
 ---
-// Props esperadas: title, classe, nivel, raca, imagem, slug, excerpt
+import Link from "@components/Link.astro";
+
 const { name, class: classe, level, slug, excerpt } = Astro.props;
 ---
 
-<article
-  class="rounded-lg shadow-md p-4 hover:shadow-lg transition bg-hero-card bg-cover aspect-[2/3] w-full"
->
-  <a href={`/personagens/${slug}/`}>
-    <h2 class="text-xl font-bold mb-1">{name}</h2>
-    <p class="text-sm text-neutral-600">{classe} • Nível {level}</p>
-    <p class="mt-2 text-sm text-neutral-700 line-clamp-3">{excerpt}</p>
-  </a>
-</article>
+<Link href={`/personagens/${slug}`} underline={false}>
+  <div
+    class="rounded-lg shadow-md p-5 hover:shadow-lg transition bg-hero-card bg-cover aspect-[2/3] w-full flex flex-col justify-between"
+  >
+    <h2 class="text-4xl font-bold pt-2 text-gray-700">{name}</h2>
+    <p class="text-md text-right text-gray-700">{classe}</p>
+  </div>
+</Link>
